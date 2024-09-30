@@ -41,7 +41,12 @@
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.36</version>
         </dependency>
-    </dependencies>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+			</dependency>
+		</dependencies>
 
     <build>
         <plugins>
@@ -64,4 +69,5 @@
             </plugin>
         </plugins>
     </build>
+	
 </project>
