@@ -45,8 +45,17 @@
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
-			</dependency>
-		</dependencies>
+		</dependency>
+	</dependencies>
+<repositories>
+    <repository>
+        <id>jboss</id>
+        <name>JBoss Repository</name>
+        <url>https://repository.jboss.org/nexus/content/repositories/releases</url>
+    </repository>
+</repositories>
+
+		
 
     <build>
         <plugins>
